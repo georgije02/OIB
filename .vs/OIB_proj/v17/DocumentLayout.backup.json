@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\sucuritymanager\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|solutionrelative:sucuritymanager\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\localdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|solutionrelative:localdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535D47C5-0E2F-43EC-B89D-58E8C6C5E9DB}|OIB_proj\\OIB_proj.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\oib_proj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535D47C5-0E2F-43EC-B89D-58E8C6C5E9DB}|OIB_proj\\OIB_proj.csproj|solutionrelative:oib_proj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\Class1.cs",
+              "RelativeDocumentMoniker": "SucurityManager\\Class1.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\Class1.cs",
+              "RelativeToolTip": "SucurityManager\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:45:38.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\Program.cs",
+              "RelativeDocumentMoniker": "LocalDataBase\\Program.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\Program.cs",
+              "RelativeToolTip": "LocalDataBase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:40:41.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\OIB_proj\\Program.cs",
+              "RelativeDocumentMoniker": "OIB_proj\\Program.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\OIB_proj\\Program.cs",
+              "RelativeToolTip": "OIB_proj\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:27:00.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
