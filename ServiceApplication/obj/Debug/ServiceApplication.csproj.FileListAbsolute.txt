@@ -1,0 +1,7 @@
+C:\Users\djoka\Desktop\OIB\OIB_proj\ServiceApplication\bin\Debug\ServiceApplication.exe.config
+C:\Users\djoka\Desktop\OIB\OIB_proj\ServiceApplication\bin\Debug\ServiceApplication.exe
+C:\Users\djoka\Desktop\OIB\OIB_proj\ServiceApplication\bin\Debug\ServiceApplication.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\ServiceApplication\obj\Debug\ServiceApplication.csproj.AssemblyReference.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\ServiceApplication\obj\Debug\ServiceApplication.csproj.CoreCompileInputs.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\ServiceApplication\obj\Debug\ServiceApplication.exe
+C:\Users\djoka\Desktop\OIB\OIB_proj\ServiceApplication\obj\Debug\ServiceApplication.pdb

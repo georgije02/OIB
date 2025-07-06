@@ -1,0 +1,6 @@
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\bin\Debug\SucurityManager.dll
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\bin\Debug\SucurityManager.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.csproj.AssemblyReference.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.csproj.CoreCompileInputs.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.dll
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.pdb

@@ -1,0 +1,7 @@
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\LocalDataBase.exe.config
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\LocalDataBase.exe
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\LocalDataBase.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.csproj.AssemblyReference.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.csproj.CoreCompileInputs.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.exe
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.pdb

@@ -1,0 +1,6 @@
+C:\Users\djoka\Desktop\OIB\OIB_proj\Common\bin\Debug\Common.dll
+C:\Users\djoka\Desktop\OIB\OIB_proj\Common\bin\Debug\Common.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\Common\obj\Debug\Common.dll
+C:\Users\djoka\Desktop\OIB\OIB_proj\Common\obj\Debug\Common.pdb
