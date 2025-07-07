@@ -7,13 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "OIB_proj\Client.c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalDataBase", "LocalDataBase\LocalDataBase.csproj", "{92844C94-F84E-4A4D-AF82-CFBCCCE41684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SucurityManager", "SucurityManager\SucurityManager.csproj", "{35DE0B26-B430-48D0-A100-7281671423B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityManager", "SucurityManager\SecurityManager.csproj", "{35DE0B26-B430-48D0-A100-7281671423B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralDataBase", "CentralDataBase\CentralDataBase.csproj", "{71E44735-3051-4318-9B2E-60F21D5AAF8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A9BBFEB0-2497-4067-B64F-E79C06457258}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApplication", "ServiceApplication\ServiceApplication.csproj", "{29F51740-5973-4E99-B007-7BC4C4C8A9AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{A9BBFEB0-2497-4067-B64F-E79C06457258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9BBFEB0-2497-4067-B64F-E79C06457258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9BBFEB0-2497-4067-B64F-E79C06457258}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29F51740-5973-4E99-B007-7BC4C4C8A9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29F51740-5973-4E99-B007-7BC4C4C8A9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29F51740-5973-4E99-B007-7BC4C4C8A9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29F51740-5973-4E99-B007-7BC4C4C8A9AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

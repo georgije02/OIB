@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{535D47C5-0E2F-43EC-B89D-58E8C6C5E9DB}|OIB_proj\\Client.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\oib_proj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535D47C5-0E2F-43EC-B89D-58E8C6C5E9DB}|OIB_proj\\Client.csproj|solutionrelative:oib_proj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E44735-3051-4318-9B2E-60F21D5AAF8A}|CentralDataBase\\CentralDataBase.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\centraldatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E44735-3051-4318-9B2E-60F21D5AAF8A}|CentralDataBase\\CentralDataBase.csproj|solutionrelative:centraldatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SecurityManager.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\sucuritymanager\\servicecertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SecurityManager.csproj|solutionrelative:sucuritymanager\\servicecertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E44735-3051-4318-9B2E-60F21D5AAF8A}|CentralDataBase\\CentralDataBase.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\centraldatabase\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E44735-3051-4318-9B2E-60F21D5AAF8A}|CentralDataBase\\CentralDataBase.csproj|solutionrelative:centraldatabase\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\localdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|solutionrelative:localdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\localdatabase\\wcfclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|solutionrelative:localdatabase\\wcfclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\localdatabase\\localdatabasenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|solutionrelative:localdatabase\\localdatabasenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\sucuritymanager\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|solutionrelative:sucuritymanager\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\localdatabase\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92844C94-F84E-4A4D-AF82-CFBCCCE41684}|LocalDataBase\\LocalDataBase.csproj|solutionrelative:localdatabase\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|c:\\users\\djoka\\desktop\\oib\\oib_proj\\sucuritymanager\\customauthorisationpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|solutionrelative:sucuritymanager\\customauthorisationpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\sucuritymanager\\certmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|solutionrelative:sucuritymanager\\certmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\sucuritymanager\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35DE0B26-B430-48D0-A100-7281671423B9}|SucurityManager\\SucurityManager.csproj|solutionrelative:sucuritymanager\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,15 +78,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\OIB_proj\\Program.cs",
+              "RelativeDocumentMoniker": "OIB_proj\\Program.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\OIB_proj\\Program.cs",
+              "RelativeToolTip": "OIB_proj\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:02:26.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceCertValidator.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\ServiceCertValidator.cs",
+              "RelativeDocumentMoniker": "SucurityManager\\ServiceCertValidator.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\ServiceCertValidator.cs",
+              "RelativeToolTip": "SucurityManager\\ServiceCertValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:17:38.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\CentralDataBase\\Program.cs",
+              "RelativeDocumentMoniker": "CentralDataBase\\Program.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\CentralDataBase\\Program.cs",
+              "RelativeToolTip": "CentralDataBase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8BAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:16:00.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\CentralDataBase\\DBConnection.cs",
+              "RelativeDocumentMoniker": "CentralDataBase\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\CentralDataBase\\DBConnection.cs",
+              "RelativeToolTip": "CentralDataBase\\DBConnection.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:15:32.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\Program.cs",
+              "RelativeDocumentMoniker": "LocalDataBase\\Program.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\Program.cs",
+              "RelativeToolTip": "LocalDataBase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:13:23.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WCFClient.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\WCFClient.cs",
+              "RelativeDocumentMoniker": "LocalDataBase\\WCFClient.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\WCFClient.cs",
+              "RelativeToolTip": "LocalDataBase\\WCFClient.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:04:59.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalDatabaseNotification.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\LocalDatabaseNotification.cs",
+              "RelativeDocumentMoniker": "LocalDataBase\\LocalDatabaseNotification.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\LocalDatabaseNotification.cs",
+              "RelativeToolTip": "LocalDataBase\\LocalDatabaseNotification.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:04:17.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\Connection.cs",
+              "RelativeDocumentMoniker": "LocalDataBase\\Connection.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\LocalDataBase\\Connection.cs",
+              "RelativeToolTip": "LocalDataBase\\Connection.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:03:15.07Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "CustomAuthorisationPolicy.cs",
               "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\CustomAuthorisationPolicy.cs",
               "RelativeDocumentMoniker": "SucurityManager\\CustomAuthorisationPolicy.cs",
@@ -67,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "RolesConfig.cs",
               "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\RolesConfig.cs",
               "RelativeDocumentMoniker": "SucurityManager\\RolesConfig.cs",
@@ -79,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Formatter.cs",
               "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\Formatter.cs",
               "RelativeDocumentMoniker": "SucurityManager\\Formatter.cs",
@@ -91,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "CustomPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\CustomPrincipal.cs",
               "RelativeDocumentMoniker": "SucurityManager\\CustomPrincipal.cs",
@@ -103,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "CustomAuthorisationManager.cs",
               "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\CustomAuthorisationManager.cs",
               "RelativeDocumentMoniker": "SucurityManager\\CustomAuthorisationManager.cs",
@@ -115,7 +251,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "Audit.cs",
+              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\Audit.cs",
+              "RelativeDocumentMoniker": "SucurityManager\\Audit.cs",
+              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\Audit.cs",
+              "RelativeToolTip": "SucurityManager\\Audit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T23:33:41.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ClientCertValidator.cs",
               "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\ClientCertValidator.cs",
               "RelativeDocumentMoniker": "SucurityManager\\ClientCertValidator.cs",
@@ -127,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "CertManager.cs",
               "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\CertManager.cs",
               "RelativeDocumentMoniker": "SucurityManager\\CertManager.cs",
@@ -139,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "AuditEvents.cs",
               "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\AuditEvents.cs",
               "RelativeDocumentMoniker": "SucurityManager\\AuditEvents.cs",
@@ -148,18 +297,6 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAjwB0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-06T23:35:05.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Audit.cs",
-              "DocumentMoniker": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\Audit.cs",
-              "RelativeDocumentMoniker": "SucurityManager\\Audit.cs",
-              "ToolTip": "C:\\Users\\djoka\\Desktop\\OIB\\OIB_proj\\SucurityManager\\Audit.cs",
-              "RelativeToolTip": "SucurityManager\\Audit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T23:33:41.743Z"
             }
           ]
         }

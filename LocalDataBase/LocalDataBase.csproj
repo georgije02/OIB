@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,10 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection.cs" />
+    <Compile Include="LocalDatabaseNotification.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WCFClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{A9BBFEB0-2497-4067-B64F-E79C06457258}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SucurityManager\SecurityManager.csproj">
+      <Project>{35de0b26-b430-48d0-a100-7281671423b9}</Project>
+      <Name>SecurityManager</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

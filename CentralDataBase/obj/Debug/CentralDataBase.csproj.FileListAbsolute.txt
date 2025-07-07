@@ -5,3 +5,8 @@ C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\obj\Debug\CentralDataBase.cs
 C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\obj\Debug\CentralDataBase.csproj.CoreCompileInputs.cache
 C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\obj\Debug\CentralDataBase.exe
 C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\obj\Debug\CentralDataBase.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\bin\Debug\SucurityManager.dll
+C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\bin\Debug\SucurityManager.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\obj\Debug\CentralD.A566B090.Up2Date
+C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\bin\Debug\Common.dll
+C:\Users\djoka\Desktop\OIB\OIB_proj\CentralDataBase\bin\Debug\Common.pdb

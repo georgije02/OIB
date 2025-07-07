@@ -5,3 +5,8 @@ C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\obj\Debug\Client.csproj.AssemblyRef
 C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\obj\Debug\Client.csproj.CoreCompileInputs.cache
 C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\obj\Debug\OIB_proj.exe
 C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\obj\Debug\OIB_proj.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\bin\Debug\Common.dll
+C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\bin\Debug\SucurityManager.dll
+C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\bin\Debug\Common.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\bin\Debug\SucurityManager.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\OIB_proj\obj\Debug\Client.csproj.Up2Date
