@@ -4,3 +4,6 @@ C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.cs
 C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.csproj.CoreCompileInputs.cache
 C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.dll
 C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.AuditEventFile.resources
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.RolesConfigFile.resources
+C:\Users\djoka\Desktop\OIB\OIB_proj\SucurityManager\obj\Debug\SucurityManager.csproj.GenerateResource.cache
