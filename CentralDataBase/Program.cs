@@ -299,8 +299,9 @@ namespace CentralDatabase
             List<Measurement> list = new List<Measurement> { m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12 };
             #endregion
 
-            string srvCertCN = Formatter.ParseName(WindowsIdentity.GetCurrent().Name);
-
+            //string srvCertCN = Formatter.ParseName(WindowsIdentity.GetCurrent().Name);
+            string srvCertCN = "wcfservice";  // Direktno unesi ono što piše u Subject
+            
 
             // Upis podataka u txt fajl, koji simulira bazu podataka
             foreach (var x in list)
@@ -319,7 +320,7 @@ namespace CentralDatabase
             host.Credentials.ClientCertificate.Authentication.CertificateValidationMode = X509CertificateValidationMode.Custom;
             host.Credentials.ClientCertificate.Authentication.CustomCertificateValidator = new ServiceCertValidator();
             host.Credentials.ClientCertificate.Authentication.RevocationMode = X509RevocationMode.NoCheck;
-            host.Credentials.ServiceCertificate.Certificate = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, srvCertCN);
+            host.Credentials.ServiceCertificate.Certificate = CertManager.GetCertificateFromStorage(StoreName.My, StoreLocation.LocalMachine, srvCertCN);//izmena zbog sertifikata
 
             // Podesavanje za logove
             host.Description.Behaviors.Remove(typeof(ServiceDebugBehavior));
@@ -336,7 +337,7 @@ namespace CentralDatabase
             {
                 host.Open();
                 Console.WriteLine("Server has started!!!!\n");
-                Console.ReadLine();
+                 Console.ReadLine();
             }
             catch (Exception e)
             {

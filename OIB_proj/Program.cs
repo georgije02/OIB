@@ -314,7 +314,7 @@ namespace Client
                                     int currentMonthInt = formatInfo.MonthNames.ToList().IndexOf(currentMonth) + 1;
                                     int counter = 1;
 
-                                    foreach (string monthName in months)
+                                    /*foreach (string monthName in months)
                                     {
                                         if (counter <= currentMonthInt)
                                         {
@@ -334,6 +334,21 @@ namespace Client
                                         {
                                             break;
                                         }
+                                    }*/
+
+                                    foreach (string monthName in months)
+                                    {
+                                        string consumptionValue;
+                                        decimal valueC;
+
+                                        do
+                                        {
+                                            Console.Write($"Enter consumption for {monthName}: ");
+                                            consumptionValue = Console.ReadLine();
+
+                                        } while (!decimal.TryParse(consumptionValue, out valueC) || valueC < 0);
+
+                                        consumption[monthName] = consumptionValue;
                                     }
 
                                     try

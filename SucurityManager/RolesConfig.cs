@@ -6,7 +6,7 @@ namespace SecurityManager
 {
     public class RolesConfig
     {
-        static string path = @"~\..\..\..\..\SecurityManager\RolesConfigFile.resx";
+        static string path = @"~\..\..\..\..\SucurityManager\RolesConfigFile.resx";
         public static bool GetPermissions(string rolename, out string[] permissions)
         {
             permissions = new string[10];

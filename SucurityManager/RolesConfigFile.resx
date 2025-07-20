@@ -117,9 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>User has successfully added a new entity.</value>
+    <comment>Dodavanje novog entiteta</comment>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>Read,Calculate,Modify,Administrate</value>
     <comment>Ima sva prava</comment>
+  </data>
+  <data name="AuthorizationFailed" xml:space="preserve">
+    <value>The user is not authorized to call the function</value>
+    <comment>Korisnik nema pravo</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>User has successfully deleted entity.</value>
+    <comment>Brisanje entiteta</comment>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>User has successfully modified the consumption for the current month.</value>
+    <comment>Modifikacija potrošnje za trenutni mesec</comment>
+  </data>
+  <data name="NoCertificateCDB" xml:space="preserve">
+    <value>The user who started the CentralDatabase does not have a certificate.</value>
+    <comment>Pokretanje bez sertfikata centralne baze</comment>
+  </data>
+  <data name="NoCertificateLDB" xml:space="preserve">
+    <value>The user who started the LocalDatabase does not have a certificate.</value>
+    <comment>Pokretanje bez sertifikata lokalne baze</comment>
   </data>
   <data name="Potrošač" xml:space="preserve">
     <value>Read,Calculate,Modify</value>

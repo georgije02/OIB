@@ -18,6 +18,7 @@ namespace LocalDatabase
         static void Main(string[] args)
         {
             string srvCertCN = "wcfservice";
+            //string srvCertCN = "djoka";
             MarkChange markChange = Help.HelpForChange;
 
             LocalDataBaseNotification notification = new LocalDataBaseNotification();

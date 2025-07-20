@@ -1,12 +1,12 @@
 C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\LocalDataBase.exe.config
 C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\LocalDataBase.exe
 C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\LocalDataBase.pdb
-C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.csproj.AssemblyReference.cache
-C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.csproj.CoreCompileInputs.cache
-C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.exe
-C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.pdb
 C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\Common.dll
 C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\SucurityManager.dll
 C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\Common.pdb
 C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\bin\Debug\SucurityManager.pdb
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.csproj.AssemblyReference.cache
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.csproj.CoreCompileInputs.cache
 C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDat.C9588DD6.Up2Date
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.exe
+C:\Users\djoka\Desktop\OIB\OIB_proj\LocalDataBase\obj\Debug\LocalDataBase.pdb

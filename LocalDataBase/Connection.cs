@@ -1,6 +1,7 @@
 ﻿using Common;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Security.Permissions;
@@ -35,7 +36,7 @@ namespace LocalDatabase
             return (encryptedMeasurements, yourKey, yourIV);
         }
 
-        [PrincipalPermission(SecurityAction.Demand, Role = "Calculate")]
+        /*[PrincipalPermission(SecurityAction.Demand, Role = "Calculate")]
         public (byte[], byte[], byte[]) CalculateConsumptionMeanCity(string city)
         {
             double sumCity = 0;
@@ -66,9 +67,43 @@ namespace LocalDatabase
             {
                 return (markChange.aes.EncryptStringToBytes_Aes((0).ToString(), markChange.myAes.Key, markChange.myAes.IV), yourKey, yourIV);
             }
-        }
+        }*/
 
         [PrincipalPermission(SecurityAction.Demand, Role = "Calculate")]
+        public (byte[], byte[], byte[]) CalculateConsumptionMeanCity(string city)
+        {
+            double sumCity = 0;
+            int counter = 0;
+
+            List<Measurement> allMeasurements = db.ReadMeasurementsFromFile(markChange.fileName);
+
+            foreach (var measurement in allMeasurements)
+            {
+                if (measurement.City.Equals(city, StringComparison.OrdinalIgnoreCase))
+                {
+                    foreach (var value in measurement.Consumption.Values)
+                    {
+                        string cleanedString = value.Trim(' ', '}').Replace('.', ',');
+                        if (double.TryParse(cleanedString, NumberStyles.Any, new CultureInfo("sr-Latn-RS"), out double parsed))
+                        {
+                            sumCity += parsed;
+                            counter++;
+                        }
+                    }
+                }
+            }
+
+            (byte[], byte[]) results = markChange.sm.KeyAndIVEncryption(markChange.myAes.Key, markChange.myAes.IV);
+            byte[] yourKey = results.Item1;
+            byte[] yourIV = results.Item2;
+
+            double mean = counter > 0 ? (sumCity / counter) : 0;
+
+            return (markChange.aes.EncryptStringToBytes_Aes(
+                mean.ToString("F2"), markChange.myAes.Key, markChange.myAes.IV), yourKey, yourIV);
+        }
+
+        /*[PrincipalPermission(SecurityAction.Demand, Role = "Calculate")]
         public (byte[], byte[], byte[]) CalculateConsumptionMeanRegion(string region)
         {
             double sumRegion = 0;
@@ -98,6 +133,43 @@ namespace LocalDatabase
             {
                 return (markChange.aes.EncryptStringToBytes_Aes((0).ToString(), markChange.myAes.Key, markChange.myAes.IV), yourKey, yourIV);
             }
+        }*/
+
+        [PrincipalPermission(SecurityAction.Demand, Role = "Calculate")]
+        public (byte[], byte[], byte[]) CalculateConsumptionMeanRegion(string region)
+        {
+            double sumRegion = 0;
+            int counter = 0;
+
+            List<Measurement> specificRegionList = db.ReadMeasurementsFromFile(markChange.fileName);
+
+            foreach (var measurement in specificRegionList)
+            {
+                if (measurement.Region.Equals(region, StringComparison.OrdinalIgnoreCase))
+                {
+                    foreach (var value in measurement.Consumption.Values)
+                    {
+                        string cleanedString = value.Trim(' ', '}').Replace(',', '.'); // pretvori u en-us broj
+                        if (double.TryParse(cleanedString, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out double parsed))
+                        {
+                            sumRegion += parsed;
+                            counter++;
+                        }
+                    }
+                }
+            }
+
+            (byte[], byte[]) results = markChange.sm.KeyAndIVEncryption(markChange.myAes.Key, markChange.myAes.IV);
+            byte[] yourKey = results.Item1;
+            byte[] yourIV = results.Item2;
+
+            double mean = (counter > 0) ? sumRegion / counter : 0;
+
+            return (
+                markChange.aes.EncryptStringToBytes_Aes(mean.ToString("F2", System.Globalization.CultureInfo.InvariantCulture), markChange.myAes.Key, markChange.myAes.IV),
+                yourKey,
+                yourIV
+            );
         }
 
         [PrincipalPermission(SecurityAction.Demand, Role = "Modify")]

@@ -1,4 +1,5 @@
-﻿using System.Security;
+﻿using System;
+using System.Security;
 using System.Security.Cryptography.X509Certificates;
 
 namespace SecurityManager
@@ -13,12 +14,45 @@ namespace SecurityManager
         /// <param name="storeLocation"></param>
         /// <param name="subjectName"></param>
         /// <returns> The requested certificate. If no valid certificate is found, returns null. </returns>
+        /// 
         public static X509Certificate2 GetCertificateFromStorage(StoreName storeName, StoreLocation storeLocation, string subjectName)
         {
             X509Store store = new X509Store(storeName, storeLocation);
             store.Open(OpenFlags.ReadOnly);
 
+            X509Certificate2Collection certCollection = store.Certificates.Find(
+                X509FindType.FindBySubjectName, subjectName, false);//izmena
+
+            Console.WriteLine($"▶ Pronađeno sertifikata: {certCollection.Count}");
+
+            foreach (X509Certificate2 c in certCollection)
+            {
+                Console.WriteLine($"✔ {c.Subject}");
+
+                if (c.Subject.Equals($"CN={subjectName}"))
+                {
+                    return c;
+                }
+            }
+
+            return null;
+        }
+        /*public static X509Certificate2 GetCertificateFromStorage(StoreName storeName, StoreLocation storeLocation, string subjectName)
+        {
+            X509Store store = new X509Store(storeName, storeLocation);
+            store.Open(OpenFlags.ReadOnly);
+
             X509Certificate2Collection certCollection = store.Certificates.Find(X509FindType.FindBySubjectName, subjectName, true);
+
+            foreach (X509Certificate2 c in certCollection)
+            {
+                Console.WriteLine("Found cert: " + c.SubjectName.Name);
+
+                if (c.SubjectName.Name.Contains($"CN={subjectName}"))
+                {
+                    return c;
+                }
+            }
 
             /// Check whether the subjectName of the certificate is exactly the same as the given "subjectName"
             foreach (X509Certificate2 c in certCollection)
@@ -28,9 +62,13 @@ namespace SecurityManager
                     return c;
                 }
             }
+            
 
             return null;
-        }
+        }*/
+
+
+       
 
         /// <summary>
         /// Get a certificate from file.		
